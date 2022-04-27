@@ -1,3 +1,23 @@
-h1 {
-  color:red;
+h1,h2 {
+  font-family: "Brush Script MT", cursive;
+}
+h3{
+  line-height: 0px;
+}
+p{
+  line-height: 15px;
+}
+body{
+  background: rgba(244, 234, 114, 0.72);
+}
+h1{
+  font-size: 350%;
+  font-style:oblique;
+  text-align: center;
+}
+h4{
+  text-align:center;
+}
+.fa-brands:before{
+  text-align:center;
 }
