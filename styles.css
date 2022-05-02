@@ -1,14 +1,19 @@
 h1,h2 {
   font-family: "Brush Script MT", cursive;
+  clear: both
 }
 h3{
   line-height: 0px;
+  clear: left
 }
 p{
   line-height: 15px;
 }
 body{
   background: rgba(244, 234, 114, 0.72);
+}
+br{
+  display: inline-block;
 }
 h1{
   font-size: 350%;
@@ -18,6 +23,20 @@ h1{
 h4{
   text-align:center;
 }
-.fa-brands:before{
-  text-align:center;
+td img{
+  display: block;
+  margin-right: 0;
+  margin-left: auto;
+}
+td{
+  vertical-align: top;
+}
+tr{
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+table{
+
+
 }
