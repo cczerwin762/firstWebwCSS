@@ -1,39 +1,41 @@
-h1,h2 {
-  font-family: "Brush Script MT", cursive;
-  clear: both
-}
-h3{
-  line-height: 0px;
-  clear: left
-}
-p{
-  line-height: 15px;
-}
 body{
   background: rgba(244, 234, 114, 0.72);
   margin: 5%;
 }
-br{
-  display: inline-block;
+h1,h2 {
+  font-family: "Brush Script MT", cursive;
+  clear: both
 }
 h1{
   font-size: 350%;
   font-style:oblique;
   text-align: center;
 }
+h3{
+  line-height: 0px;
+  clear: left
+}
 h4{
   text-align:center;
 }
-td img{
-  display: block;
-  margin-right: 0;
-  margin-left: auto;
+p{
+  line-height: 15px;
 }
-td{
-  vertical-align: top;
+.entrees{
+  display: inline-block;
+  padding-right: 0px;
 }
-/*li{
-  display: inline;
-  margin: auto;
+div{
+    vertical-align: top;
 }
-*/
+img{
+  width: 20%;
+  vertical-align: bottom;
+  position: relative;
+}
+#sNmPic{
+  left: 800px;
+}
+#cpPic{
+  left: 1000px;
+}
